@@ -19,13 +19,13 @@ Se você clicar em **Jogar**, sai desta página e entra no jogo.
 | Pista Maluca | https://kt3746.github.io/pista-maluca/?v=dir4 |
 | Queda Certa | https://kt3746.github.io/queda-certa/?v=4-c56dbd1 |
 | Duelo Rápido | https://kt3746.github.io/duelo-rapido/?v=1.1.3 |
+| Balcão do Caos | https://kt3746.github.io/balcao-do-caos/?v=aa3d822e7a583121fc69ecbcfc83e4ec21523f97 |
 
 ## Em breve
 
 Estes nomes aparecem no portal, mas **não são jogáveis** ainda: sem botão Jogar e **sem endereço de jogo**.
 
 - Noite na Cabana
-- Balcão do Caos
 - Céu de Aço
 
 Céu de Aço, se estiver na página, é só um slot **Em breve**. Não colocar URL de playtest no hub.

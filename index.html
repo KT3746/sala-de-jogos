@@ -7,7 +7,7 @@
     <meta name="theme-color" content="#08080b" />
     <meta
       name="description"
-      content="Sala de Jogos — portal com links para títulos originais. Relâmpago, Pista Maluca, Queda Certa e Duelo Rápido."
+      content="Sala de Jogos — portal com links para títulos originais. Relâmpago, Pista Maluca, Queda Certa, Duelo Rápido e Balcão do Caos."
     />
     <meta property="og:title" content="Sala de Jogos" />
     <meta
@@ -24,7 +24,7 @@
       href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=4" />
+    <link rel="stylesheet" href="styles.css?v=5" />
   </head>
   <body>
     <a class="skip" href="#biblioteca">Ir para a biblioteca</a>
@@ -54,7 +54,7 @@
       <section id="biblioteca" class="library" aria-labelledby="live-heading">
         <div class="section-head">
           <h2 id="live-heading">Disponível agora</h2>
-          <p class="section-note">Quatro jogos no ar. Cada carta abre a página do título.</p>
+          <p class="section-note">Cinco jogos no ar. Cada carta abre a página do título.</p>
         </div>
 
         <ul class="grid grid-live">
@@ -170,6 +170,32 @@
               </a>
             </article>
           </li>
+
+          <li>
+            <article class="card card-live" data-tilt>
+              <a
+                class="card-hit"
+                href="https://kt3746.github.io/balcao-do-caos/?v=aa3d822e7a583121fc69ecbcfc83e4ec21523f97"
+                aria-labelledby="title-balcao"
+              >
+                <div class="art art-balcao" aria-hidden="true">
+                  <span class="lamp"></span>
+                  <span class="shelf"></span>
+                  <span class="bottles"></span>
+                  <span class="counter"></span>
+                </div>
+                <div class="card-body">
+                  <div class="card-meta">
+                    <span class="genre">Loja</span>
+                    <span class="status status-live">No ar</span>
+                  </div>
+                  <h3 id="title-balcao">Balcão do Caos</h3>
+                  <p class="blurb">A loja não para. Atenda rápido — ou o caos toma o turno.</p>
+                  <span class="btn btn-primary" aria-hidden="true">Jogar</span>
+                </div>
+              </a>
+            </article>
+          </li>
         </ul>
       </section>
 
@@ -194,23 +220,6 @@
                 </div>
                 <h3>Noite na Cabana</h3>
                 <p class="blurb">Algo se move entre as tábuas. Ainda não é a hora.</p>
-              </div>
-            </article>
-          </li>
-          <li>
-            <article class="card card-soon" aria-disabled="true">
-              <div class="art art-balcao" aria-hidden="true">
-                <span class="shelf"></span>
-                <span class="bottles"></span>
-                <span class="counter"></span>
-              </div>
-              <div class="card-body">
-                <div class="card-meta">
-                  <span class="genre">Caos</span>
-                  <span class="status status-soon">Em breve</span>
-                </div>
-                <h3>Balcão do Caos</h3>
-                <p class="blurb">O turno nunca fecha. O caos, tampouco.</p>
               </div>
             </article>
           </li>
@@ -243,6 +252,6 @@
       </p>
     </footer>
 
-    <script src="app.js?v=4"></script>
+    <script src="app.js?v=5"></script>
   </body>
 </html>

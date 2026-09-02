@@ -277,9 +277,9 @@ main {
 .grid-live li:nth-child(2) .card { animation-delay: 0.1s; }
 .grid-live li:nth-child(3) .card { animation-delay: 0.16s; }
 .grid-live li:nth-child(4) .card { animation-delay: 0.22s; }
-.grid-soon li:nth-child(1) .card { animation-delay: 0.28s; }
-.grid-soon li:nth-child(2) .card { animation-delay: 0.34s; }
-.grid-soon li:nth-child(3) .card { animation-delay: 0.4s; }
+.grid-live li:nth-child(5) .card { animation-delay: 0.28s; }
+.grid-soon li:nth-child(1) .card { animation-delay: 0.34s; }
+.grid-soon li:nth-child(2) .card { animation-delay: 0.4s; }
 
 @keyframes rise {
   from {
@@ -659,43 +659,58 @@ main {
   opacity: 0.7;
 }
 
-/* Em breve — balcão */
+/* Balcão do Caos — loja noturna, lâmpada, prateleira */
 .art-balcao {
-  background: linear-gradient(180deg, #100c0c 0%, #1a1412 100%);
+  background:
+    radial-gradient(ellipse 50% 40% at 50% 18%, rgba(232, 168, 74, 0.28), transparent 58%),
+    linear-gradient(180deg, #1a100c 0%, #2a1812 48%, #100c0c 100%);
+}
+
+.art-balcao .lamp {
+  left: 50%;
+  top: 0;
+  width: 48px;
+  height: 22px;
+  transform: translateX(-50%);
+  background: linear-gradient(180deg, #c9a227, rgba(232, 168, 74, 0.15));
+  clip-path: polygon(28% 0, 72% 0, 100% 100%, 0 100%);
+  opacity: 0.85;
 }
 
 .art-balcao .shelf {
   left: 14%;
   right: 14%;
-  top: 28%;
-  height: 1px;
-  background: rgba(243, 241, 236, 0.1);
+  top: 30%;
+  height: 2px;
+  background: rgba(232, 168, 74, 0.28);
 }
 
 .art-balcao .bottles {
-  left: 18%;
-  right: 18%;
-  top: 10%;
+  left: 16%;
+  right: 16%;
+  top: 12%;
   height: 38%;
   background:
     repeating-linear-gradient(
       90deg,
-      transparent 0 12px,
-      rgba(180, 90, 50, 0.28) 12px 18px,
-      transparent 18px 28px,
-      rgba(90, 70, 50, 0.3) 28px 34px
+      transparent 0 10px,
+      rgba(224, 122, 61, 0.55) 10px 16px,
+      transparent 16px 26px,
+      rgba(201, 162, 39, 0.45) 26px 32px,
+      transparent 32px 40px,
+      rgba(180, 70, 50, 0.4) 40px 46px
     );
-  mask-image: linear-gradient(180deg, transparent, #000 20% 80%, transparent);
+  mask-image: linear-gradient(180deg, transparent, #000 18% 78%, transparent);
 }
 
 .art-balcao .counter {
   left: 8%;
   right: 8%;
-  bottom: 18%;
-  height: 22px;
+  bottom: 16%;
+  height: 26px;
   border-radius: 3px 3px 0 0;
-  background: linear-gradient(180deg, #2a2018, #1a1410);
-  box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.4);
+  background: linear-gradient(180deg, #3a2a1c, #1a1410);
+  box-shadow: 0 -10px 28px rgba(232, 168, 74, 0.12);
 }
 
 /* Em breve — céu de aço */
@@ -921,8 +936,8 @@ main {
   }
 
   .grid-soon {
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.15rem;
   }
 
   .art {
