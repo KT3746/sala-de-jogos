@@ -278,8 +278,8 @@ main {
 .grid-live li:nth-child(3) .card { animation-delay: 0.16s; }
 .grid-live li:nth-child(4) .card { animation-delay: 0.22s; }
 .grid-live li:nth-child(5) .card { animation-delay: 0.28s; }
-.grid-soon li:nth-child(1) .card { animation-delay: 0.34s; }
-.grid-soon li:nth-child(2) .card { animation-delay: 0.4s; }
+.grid-live li:nth-child(6) .card { animation-delay: 0.34s; }
+.grid-soon li:nth-child(1) .card { animation-delay: 0.4s; }
 
 @keyframes rise {
   from {
@@ -713,49 +713,68 @@ main {
   box-shadow: 0 -10px 28px rgba(232, 168, 74, 0.12);
 }
 
-/* Em breve — céu de aço */
+/* Céu de Aço — shoot-em-up, avião arcade */
 .art-ceu {
   background:
-    radial-gradient(ellipse 80% 36% at 50% 100%, rgba(150, 168, 186, 0.16), transparent 58%),
-    linear-gradient(180deg, #10141a 0%, #1a222c 52%, #0c1014 100%);
+    radial-gradient(ellipse 40% 50% at 50% 70%, rgba(92, 225, 230, 0.16), transparent 55%),
+    linear-gradient(180deg, #0c1218 0%, #1a2834 48%, #0a1014 100%);
 }
 
 .art-ceu .vapor {
-  height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(186, 202, 214, 0.38), transparent);
+  width: 1px;
+  background: linear-gradient(180deg, transparent, rgba(186, 202, 214, 0.35), transparent);
 }
 
 .art-ceu .v1 {
-  top: 34%;
-  left: 8%;
-  right: 22%;
+  left: 28%;
+  top: 12%;
+  bottom: 30%;
 }
 
 .art-ceu .v2 {
-  top: 46%;
-  left: 24%;
-  right: 10%;
+  right: 30%;
+  top: 8%;
+  bottom: 36%;
   opacity: 0.45;
+}
+
+.art-ceu .tracer {
+  width: 2px;
+  border-radius: 2px;
+  background: linear-gradient(180deg, transparent, #5ce1e6);
+}
+
+.art-ceu .t1 {
+  left: 46%;
+  bottom: 48%;
+  height: 28%;
+  opacity: 0.85;
+}
+
+.art-ceu .t2 {
+  left: 54%;
+  bottom: 52%;
+  height: 22%;
+  opacity: 0.55;
 }
 
 .art-ceu .craft {
   left: 50%;
-  top: 42%;
-  width: 78px;
-  height: 16px;
-  transform: translate(-50%, -50%);
-  background: #8a96a4;
-  clip-path: polygon(0 50%, 36% 32%, 70% 18%, 100% 50%, 70% 82%, 36% 68%);
-  opacity: 0.72;
-  box-shadow: 0 0 18px rgba(170, 186, 200, 0.2);
+  bottom: 26%;
+  width: 22px;
+  height: 38px;
+  transform: translateX(-50%);
+  background: #c5d4e0;
+  clip-path: polygon(50% 0, 100% 100%, 50% 70%, 0 100%);
+  box-shadow: 0 0 22px rgba(92, 225, 230, 0.4);
 }
 
 .art-ceu .horizon {
-  left: 12%;
-  right: 12%;
-  bottom: 22%;
+  left: 10%;
+  right: 10%;
+  bottom: 16%;
   height: 1px;
-  background: linear-gradient(90deg, transparent, rgba(186, 202, 214, 0.35), transparent);
+  background: linear-gradient(90deg, transparent, rgba(92, 225, 230, 0.35), transparent);
 }
 
 .card-body {
