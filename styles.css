@@ -279,6 +279,7 @@ main {
 .grid-live li:nth-child(4) .card { animation-delay: 0.22s; }
 .grid-soon li:nth-child(1) .card { animation-delay: 0.28s; }
 .grid-soon li:nth-child(2) .card { animation-delay: 0.34s; }
+.grid-soon li:nth-child(3) .card { animation-delay: 0.4s; }
 
 @keyframes rise {
   from {
@@ -697,6 +698,51 @@ main {
   box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.4);
 }
 
+/* Em breve — céu de aço */
+.art-ceu {
+  background:
+    radial-gradient(ellipse 80% 36% at 50% 100%, rgba(150, 168, 186, 0.16), transparent 58%),
+    linear-gradient(180deg, #10141a 0%, #1a222c 52%, #0c1014 100%);
+}
+
+.art-ceu .vapor {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(186, 202, 214, 0.38), transparent);
+}
+
+.art-ceu .v1 {
+  top: 34%;
+  left: 8%;
+  right: 22%;
+}
+
+.art-ceu .v2 {
+  top: 46%;
+  left: 24%;
+  right: 10%;
+  opacity: 0.45;
+}
+
+.art-ceu .craft {
+  left: 50%;
+  top: 42%;
+  width: 78px;
+  height: 16px;
+  transform: translate(-50%, -50%);
+  background: #8a96a4;
+  clip-path: polygon(0 50%, 36% 32%, 70% 18%, 100% 50%, 70% 82%, 36% 68%);
+  opacity: 0.72;
+  box-shadow: 0 0 18px rgba(170, 186, 200, 0.2);
+}
+
+.art-ceu .horizon {
+  left: 12%;
+  right: 12%;
+  bottom: 22%;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(186, 202, 214, 0.35), transparent);
+}
+
 .card-body {
   display: flex;
   flex-direction: column;
@@ -867,18 +913,30 @@ main {
     padding: 3.4rem 0 2.6rem;
   }
 
-  .grid-live,
-  .grid-soon {
+  .grid-live {
     grid-template-columns: 1fr 1fr;
     gap: 1.15rem;
+  }
+
+  .grid-soon {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
   }
 
   .art {
     height: 210px;
   }
 
+  .grid-soon .art {
+    height: 148px;
+  }
+
   .card h3 {
     font-size: 1.9rem;
+  }
+
+  .grid-soon .card h3 {
+    font-size: 1.45rem;
   }
 }
 

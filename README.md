@@ -26,6 +26,7 @@ Estes nomes aparecem no portal, mas **não são jogáveis** ainda:
 
 - Noite na Cabana
 - Balcão do Caos
+- Céu de Aço
 
 ## Arquivos
 
