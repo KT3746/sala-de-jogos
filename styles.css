@@ -266,7 +266,6 @@ main {
   background: var(--surface);
   border: 1px solid var(--line);
   box-shadow: var(--shadow);
-  transform: translateY(0) scale(1);
   animation: rise 0.75s var(--ease) both;
   transition:
     transform 0.45s var(--ease),
@@ -284,11 +283,9 @@ main {
 @keyframes rise {
   from {
     opacity: 0;
-    transform: translateY(14px);
   }
   to {
     opacity: 1;
-    transform: translateY(0);
   }
 }
 
@@ -309,9 +306,11 @@ main {
 
 .card-live:hover,
 .card-live:focus-within {
-  transform: translateY(-5px);
-  border-color: rgba(92, 225, 230, 0.28);
-  box-shadow: 0 28px 64px rgba(0, 0, 0, 0.55);
+  transform: translateY(-7px);
+  border-color: rgba(92, 225, 230, 0.34);
+  box-shadow:
+    0 30px 70px rgba(0, 0, 0, 0.55),
+    0 0 0 1px rgba(92, 225, 230, 0.1);
 }
 
 .card-live:hover::after,
@@ -353,11 +352,13 @@ main {
   overflow: hidden;
   height: 168px;
   flex-shrink: 0;
+  transform: scale(1);
+  transition: transform 0.7s var(--ease);
 }
 
 .card-live:hover .art,
 .card-live:focus-within .art {
-  /* leve zoom da arte — o filho absoluto cobre o painel */
+  transform: scale(1.06);
 }
 
 .art > * {
@@ -731,8 +732,9 @@ main {
 }
 
 .status-live {
-  color: var(--ink-on-accent);
-  background: var(--accent);
+  color: var(--accent);
+  background: rgba(92, 225, 230, 0.1);
+  border: 1px solid rgba(92, 225, 230, 0.32);
 }
 
 .status-soon {
