@@ -7,7 +7,7 @@
     <meta name="theme-color" content="#08080b" />
     <meta
       name="description"
-      content="Sala de Jogos — portal com links para títulos originais. Relâmpago, Pista Maluca, Queda Certa, Duelo Rápido, Balcão do Caos e Céu de Aço."
+      content="Sala de Jogos — portal com links para títulos originais. Relâmpago, Pista Maluca, Queda Certa, Duelo Rápido, Balcão do Caos, Céu de Aço e Noite na Cabana."
     />
     <meta property="og:title" content="Sala de Jogos" />
     <meta
@@ -24,7 +24,7 @@
       href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Outfit:wght@300;400;500;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css?v=9" />
+    <link rel="stylesheet" href="styles.css?v=10" />
   </head>
   <body>
     <a class="skip" href="#biblioteca">Ir para a biblioteca</a>
@@ -54,7 +54,7 @@
       <section id="biblioteca" class="library" aria-labelledby="live-heading">
         <div class="section-head">
           <h2 id="live-heading">Disponível agora</h2>
-          <p class="section-note">Seis jogos no ar. Cada carta abre a página do título.</p>
+          <p class="section-note">Sete jogos no ar. Cada carta abre a página do título.</p>
         </div>
 
         <ul class="grid grid-live">
@@ -224,31 +224,31 @@
               </a>
             </article>
           </li>
-        </ul>
-      </section>
 
-      <section class="library library-soon" aria-labelledby="soon-heading">
-        <div class="section-head">
-          <h2 id="soon-heading">Em produção</h2>
-          <p class="section-note">Slots visíveis, ainda sem link. Quando sair, entram na prateleira de cima.</p>
-        </div>
-
-        <ul class="grid grid-soon">
           <li>
-            <article class="card card-soon" aria-disabled="true">
-              <div class="art art-cabana" aria-hidden="true">
-                <span class="trees"></span>
-                <span class="cabin"></span>
-                <span class="window"></span>
-              </div>
-              <div class="card-body">
-                <div class="card-meta">
-                  <span class="genre">Atmosfera</span>
-                  <span class="status status-soon">Em breve</span>
+            <article class="card card-live" data-tilt>
+              <a
+                class="card-hit"
+                href="https://kt3746.github.io/noite-na-cabana/?v=1.0.4"
+                aria-labelledby="title-cabana"
+              >
+                <div class="art art-cabana" aria-hidden="true">
+                  <span class="moon"></span>
+                  <span class="trees"></span>
+                  <span class="field"></span>
+                  <span class="cabin"></span>
+                  <span class="window"></span>
                 </div>
-                <h3>Noite na Cabana</h3>
-                <p class="blurb">Algo se move entre as tábuas. Ainda não é a hora.</p>
-              </div>
+                <div class="card-body">
+                  <div class="card-meta">
+                    <span class="genre">Sobrevivência</span>
+                    <span class="status status-live">No ar</span>
+                  </div>
+                  <h3 id="title-cabana">Noite na Cabana</h3>
+                  <p class="blurb">Plante de dia. Defenda a cabana à noite.</p>
+                  <span class="btn btn-primary" aria-hidden="true">Jogar</span>
+                </div>
+              </a>
             </article>
           </li>
         </ul>
@@ -261,6 +261,6 @@
       </p>
     </footer>
 
-    <script src="app.js?v=9"></script>
+    <script src="app.js?v=10"></script>
   </body>
 </html>
