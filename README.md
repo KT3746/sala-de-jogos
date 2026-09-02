@@ -22,11 +22,13 @@ Se você clicar em **Jogar**, sai desta página e entra no jogo.
 
 ## Em breve
 
-Estes nomes aparecem no portal, mas **não são jogáveis** ainda:
+Estes nomes aparecem no portal, mas **não são jogáveis** ainda: sem botão Jogar e **sem endereço de jogo**.
 
 - Noite na Cabana
 - Balcão do Caos
 - Céu de Aço
+
+Céu de Aço, se estiver na página, é só um slot **Em breve**. Não colocar URL de playtest no hub.
 
 ## Arquivos
 
