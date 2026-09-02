@@ -20,7 +20,7 @@ Se você clicar em **Jogar**, sai desta página e entra no jogo.
 | Queda Certa | https://kt3746.github.io/queda-certa/?v=4-c56dbd1 |
 | Duelo Rápido | https://kt3746.github.io/duelo-rapido/?v=1.1.3 |
 | Balcão do Caos | https://kt3746.github.io/balcao-do-caos/?v=aa3d822e7a583121fc69ecbcfc83e4ec21523f97 |
-| Céu de Aço | https://kt3746.github.io/ceu-de-aco/?v=1.0.1 |
+| Céu de Aço | https://kt3746.github.io/ceu-de-aco/?v=1.0.2 |
 
 ## Em breve
 
