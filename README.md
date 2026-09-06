@@ -16,7 +16,7 @@ Se você clicar em **Jogar**, sai desta página e entra no jogo.
 | --- | --- |
 | Relâmpago (celular) | https://kt3746.github.io/top-gear-kt/celular/?v=hold17 |
 | Relâmpago (PC) | https://kt3746.github.io/top-gear-kt/pc/?v=hold17 |
-| Pista Maluca | https://kt3746.github.io/pista-maluca/?v=dir4 |
+| Pista Maluca | https://kt3746.github.io/pista-maluca/?v=play1 |
 | Queda Certa | https://kt3746.github.io/queda-certa/?v=4-c56dbd1 |
 | Duelo Rápido | https://kt3746.github.io/duelo-rapido/?v=1.1.3 |
 | Balcão do Caos | https://kt3746.github.io/balcao-do-caos/?v=8ee98dd4c13d54d23af53b64b39f64971a044722 |
