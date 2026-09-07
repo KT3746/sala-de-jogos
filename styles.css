@@ -280,6 +280,7 @@ main {
 .grid-live li:nth-child(5) .card { animation-delay: 0.28s; }
 .grid-live li:nth-child(6) .card { animation-delay: 0.34s; }
 .grid-live li:nth-child(7) .card { animation-delay: 0.4s; }
+.grid-live li:nth-child(8) .card { animation-delay: 0.46s; }
 
 @keyframes rise {
   from {
@@ -1026,4 +1027,66 @@ main {
   .card-live:active {
     transform: none;
   }
+}
+
+
+.art-memorium {
+  background:
+    radial-gradient(circle at 70% 20%, rgba(240,180,41,0.35), transparent 45%),
+    linear-gradient(160deg, #141a2e, #080b14 70%);
+  position: relative;
+  overflow: hidden;
+}
+.art-memorium .glow {
+  position: absolute; inset: 20% 25%;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(124,92,255,0.35), transparent 70%);
+  filter: blur(8px);
+}
+.art-memorium .card-a,
+.art-memorium .card-b {
+  position: absolute;
+  width: 34%;
+  height: 48%;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.18);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.35);
+}
+.art-memorium .card-a {
+  left: 22%;
+  top: 28%;
+  background: linear-gradient(145deg, #1c2748, #0e1428);
+  transform: rotate(-12deg);
+}
+.art-memorium .card-a::after {
+  content: "";
+  position: absolute; inset: 28%;
+  border-radius: 50%;
+  border: 2px solid rgba(240,180,41,0.7);
+}
+.art-memorium .card-b {
+  right: 20%;
+  top: 30%;
+  background: linear-gradient(160deg, #243056, #12182c);
+  transform: rotate(10deg);
+}
+.art-memorium .card-b::after {
+  content: "★";
+  position: absolute; inset: 0;
+  display: grid; place-items: center;
+  color: #f0b429;
+  font-size: 1.4rem;
+}
+.art-memorium .spark {
+  position: absolute;
+  width: 6px; height: 6px;
+  border-radius: 50%;
+  background: #ffd978;
+  box-shadow: 0 0 12px #f0b429;
+}
+.art-memorium .s1 { left: 48%; top: 18%; animation: memorium-twinkle 2.2s ease-in-out infinite; }
+.art-memorium .s2 { right: 28%; bottom: 22%; animation: memorium-twinkle 2.2s ease-in-out infinite 0.7s; }
+@keyframes memorium-twinkle {
+  0%, 100% { opacity: 0.35; transform: scale(0.8); }
+  50% { opacity: 1; transform: scale(1.2); }
 }
