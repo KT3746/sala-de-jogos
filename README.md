@@ -3,7 +3,7 @@
 Portal em português (PT-BR) com **somente links** para os jogos.
 Nenhum jogo é hospedado neste repositório — a página é um lançador estático.
 
-Site: [https://kt3746.github.io/sala-de-jogos/](https://kt3746.github.io/sala-de-jogos/)
+Site: [https://kt3746.github.io/grokbot-portal/](https://kt3746.github.io/grokbot-portal/)
 
 ## O que é isto
 
@@ -14,15 +14,15 @@ Se você clicar em **Jogar**, sai desta página e entra no jogo.
 
 | Jogo | Endereço |
 | --- | --- |
-| TOP RELÂMPAGO (celular) | https://kt3746.github.io/top-gear-kt/celular/?v=top1 |
-| TOP RELÂMPAGO (PC) | https://kt3746.github.io/top-gear-kt/pc/?v=top1 |
+| TOP RELÂMPAGO (celular) | https://kt3746.github.io/grokbot-top-relampago/celular/?v=top1 |
+| TOP RELÂMPAGO (PC) | https://kt3746.github.io/grokbot-top-relampago/pc/?v=top1 |
 | Pista Maluca | https://kt3746.github.io/kart/?v=fix18 |
-| TETROK | https://kt3746.github.io/tetrok/?v=35-next |
-| KOMEKU | https://kt3746.github.io/duelo-rapido/?v=1.3.1 |
-| MERCADINHO | https://kt3746.github.io/mercadinho/?v=eaf4b042ee0d |
-| 1945 | https://kt3746.github.io/1945/?v=1.2.0 |
-| MEMÓRIUM | https://kt3746.github.io/memorium/?v=4 |
-| CABANA DE GUERRA | https://kt3746.github.io/noite-na-cabana/?v=1.0.6 |
+| TETROK | https://kt3746.github.io/grokbot-tetrok/?v=37-quality |
+| LUTA | https://kt3746.github.io/grokbot-luta/?v=1.3.3 |
+| MERCADINHO | https://kt3746.github.io/grokbot-mercadinho/?v=0685f9260a18 |
+| 1945 | https://kt3746.github.io/grokbot-1945/?v=1.6.0 |
+| MEMÓRIUM | https://kt3746.github.io/grokbot-memorium/?v=8 |
+| CABANA DE GUERRA | https://kt3746.github.io/grokbot-cabana-de-guerra/?v=1.0.6 |
 
 ## Arquivos
 
